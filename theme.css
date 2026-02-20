@@ -1,5 +1,5 @@
 /* ============================================================
-   Obsiddy-In Terminal — an Obsidian theme
+   Terminal — an Obsidian theme
    Retrofuturistic. Amber on dark. CRT warmth.
    by Leon Jacobs
    ============================================================ */
@@ -540,6 +540,25 @@ body::before {
 /* selection */
 ::selection {
   background: var(--text-selection);
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+/* Primary CTA buttons — dark text on amber */
+.mod-cta,
+button.mod-cta,
+.mod-cta:hover {
+  color: #1a1714;
+}
+
+/* Warning buttons */
+.mod-warning,
+button.mod-warning,
+.mod-warning:hover {
+  color: #fff;
 }
 
 
